@@ -1,0 +1,15 @@
+{
+  "name": "examen_2parcial_bazar_universal_back",
+  "version": "1.0.0",
+  "description": "app back bazar universal djpv idgs-1002",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dulce Padron",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
