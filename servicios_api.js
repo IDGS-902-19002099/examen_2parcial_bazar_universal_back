@@ -17,7 +17,7 @@ app.use(cors({
     credentials: true, // Habilitar el envío de credenciales (por ejemplo, cookies)
   }));
   app.use(cors({
-    origin: 'https://bazaruniversal246.netlify.app/', // Permitir solo solicitudes desde este origen (localhost)
+    origin: 'https://bazaruniversal246.netlify.app', // Permitir solo solicitudes desde este origen (localhost)
     methods: 'GET,HEAD', // Métodos HTTP permitidos
     credentials: true, // Habilitar el envío de credenciales (por ejemplo, cookies)
   }));
