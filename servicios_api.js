@@ -10,11 +10,11 @@ const products = require('./products.json');
 //Para analizar solicitudes con carga útil en formato JSON
 app.use(express.json());
 
-// Configura CORS para permitir solo solicitudes desde http://127.0.0.1:5173
+// Configura CORS para permitir solo solicitudes
 
   app.use(cors({
     origin: 'https://bazaruniversal246.netlify.app', // Permitir solo solicitudes desde este origen (localhost)
-    methods: 'GET,HEAD', // Métodos HTTP permitidos
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE', // Métodos HTTP permitidos
     credentials: true, // Habilitar el envío de credenciales (por ejemplo, cookies)
   }));
   
