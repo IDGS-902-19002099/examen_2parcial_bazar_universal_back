@@ -11,11 +11,7 @@ const products = require('./products.json');
 app.use(express.json());
 
 // Configura CORS para permitir solo solicitudes desde http://127.0.0.1:5173
-app.use(cors({
-    origin: 'http://localhost:5173', // Permitir solo solicitudes desde este origen (localhost)
-    methods: 'GET,HEAD', // Métodos HTTP permitidos
-    credentials: true, // Habilitar el envío de credenciales (por ejemplo, cookies)
-  }));
+
   app.use(cors({
     origin: 'https://bazaruniversal246.netlify.app', // Permitir solo solicitudes desde este origen (localhost)
     methods: 'GET,HEAD', // Métodos HTTP permitidos
